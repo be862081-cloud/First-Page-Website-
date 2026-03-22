@@ -1,53 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 1</title>
-
-    <style> 
+    <title>CAB GOLD JEWELRY PHILIPPINES - Home</title>
+    <style>
         body {
-            background-color: bisque;
+            background-color: #f5e6c8;
+            font-family:serif ;
             text-align: center;
-            font-family: Impact, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-            margin: 0;
-            padding-top: 100px;
         }
-
-        h1 {font-size: 50px;
-            letter-spacing: 2px;
+        nav a {
+            margin: 10px;
+            padding: 10px;
+            background-color: gold;
+            text-decoration: none;
+            color: black;
+            border-radius: 5px;
         }
-
-        p {
-            font-size: 18px;
-            width: 60%;
-            margin: auto;
-            margin-bottom: 70px;
+        img {
+            width: 300px;
+            margin-top: 20px;
         }
     </style>
 </head>
-
 <body>
-    <h1><i>CAB GOLD JEWELRIES PHILIPPINES</i></h1>
-    <p><i>
-        Bringing you an authentic, original, brand-new, and affordable Jewelries & Watches. 
-        You choose, we deliver, safe and insured, Worldwide!
-     </i></p> 
 
+    <h1>CAB GOLD JEWELRY PHILIPPINES</h1>
+    <p><h2>We offer you an authentic, original, brand-new, and affordable Jewelries & Watches. You choose, we deliver, safe and insured!</h2></p>
 
-    <style>
-        img { 
-            margin: 0 25px; /* space between images */ 
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="payment.html">Payment</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
-        }
-
-    </style>
-    
-    <img src="img.jpg.jpg" width="470">
-    <img src="img4.jpg" width="570"> 
-    <img src="img5.jpg" width="495"> 
-
-<a href="WHO ARE WE?.html" class="see-more-btn"> <i><strong>SEE MORE</strong></i> </a>
+    <img src="img1.jpg" width="1000">
 
 </body>
 </html>
